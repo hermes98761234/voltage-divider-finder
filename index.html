@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voltage Divider Finder: best E-series resistor pairs for any target voltage</title>
+    <meta name="description" content="Free voltage divider calculator: find the best E6 to E192 resistor pairs (also series and parallel combos) for a target Vout, feedback divider (Vref) or ADC input, with worst-case and Monte Carlo tolerance analysis. Runs in your browser." />
+    <meta name="keywords" content="voltage divider calculator, resistor divider, E96 resistor pair, feedback divider calculator, LM317 resistor, ADC input divider, regulator feedback resistors, tolerance analysis, Monte Carlo" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/voltage-divider-finder/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Divider" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Voltage Divider Finder" />
+    <meta property="og:url" content="https://hermes98761234.github.io/voltage-divider-finder/" />
+    <meta property="og:title" content="Find the best resistor pair for your voltage" />
+    <meta property="og:description" content="E-series pairs for dividers, regulator feedback and ADC inputs, with worst-case and Monte Carlo tolerance." />
+    <meta property="og:image" content="https://hermes98761234.github.io/voltage-divider-finder/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A resistor divider schematic with the headline: find the best resistor pair for your voltage" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Find the best resistor pair for your voltage" />
+    <meta name="twitter:description" content="E-series pairs for dividers, feedback and ADC inputs, with tolerance analysis. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/voltage-divider-finder/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Voltage Divider Finder",
+        "url": "https://hermes98761234.github.io/voltage-divider-finder/",
+        "description": "Finds the best E-series resistor pairs for a voltage divider, regulator feedback network or ADC input, with worst-case and Monte Carlo tolerance analysis.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript and Web Workers",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
